@@ -5,7 +5,7 @@ forward_history = LifoQueue ()
 current_page = None 
 
 # visit function
-NoOfVisits = int(input("Enter the number of url history"))
+NoOfVisits = int(input("Enter the number of url history: "))
 print("Enter URLs to visit:")
 for i in range(NoOfVisits):
     url = input("URL: ")
